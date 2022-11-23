@@ -50,9 +50,11 @@
 
   .icons{
     background-color: #eddbd2;
-    border: solid;
+    border: solid #e4c1f9 5px;
     padding: 10px;
     align-content: space-between;
-
+  }
+  h1 {
+    color: #e4c1f9;
   }
   
