@@ -1,8 +1,10 @@
 .App {
     font-family: sans-serif;
     text-align: center;
-    background-color: #eddbd2;
-    color: #e98b33;
+    background-color: #fcf6bd;
+    color: #ff99c8;
+    padding: 50px;
+
   }
   
   body {
@@ -13,24 +15,23 @@
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    height: 100%;
   }
   
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
       monospace;
-    border: solid;
   }
   
   section {
     display:flex;
     border: solid;
+    align-content: space-around;
   }
   
   section .weather {
    border: 1px solid #ccc;
    flex: 1;
-   padding:10px;
+   padding: 50px;
    text-align:center;
   }
   
@@ -44,10 +45,14 @@
     flex-wrap: wrap;
     align-content: space-between;
     height: 700px;
+    padding: 50px;
   }
 
   .icons{
+    background-color: #eddbd2;
     border: solid;
+    padding: 10px;
+    align-content: space-between;
 
   }
   
