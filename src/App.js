@@ -8,7 +8,7 @@ const weather = weatherData.map((weather, index) => {
     <WeatherForecast {...weather} key={index}/>
   )
 })
-
+//I would recommend copying the original hard coded HTML structure from the public folder, there is a section tag that has a bunch of styling already added to it that you did not use
 export default function App() {
   return (
     <div className="App">
